@@ -1,0 +1,217 @@
+<h1>Introduction</h1>
+
+<h2>Where to edit files</h2>
+<p>
+    This file is located at views/homepage.ejs. For more information on how to create a single-page app on top 
+    of this API, see <a href="http://sailsjs.org/#!/documentation/concepts/Views?q=what-about-singlepage-apps">What about single-page apps?</a>
+</p>
+
+<h2>Resource Descriptions</h2>
+
+<h3>Rule</h3>
+<p>This endpoint retrieves a rule by id.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/rule/{id}</code>
+</p>
+
+<h4>Query Parameters</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Description</th>
+            <th>Required?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>id</td>
+            <td>Id of rule</td>
+            <td>Yes</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        {
+          "mappings": [
+            {
+              "createdAt": "2015-06-03T18:56:11.419Z",
+              "rule": "556f4dbecc567ef81b8b29e7",
+              "ruleSet": "556f4dbecc567ef81b8b29d5",
+              "speak": "prescription take",
+              "style": "default",
+              "updatedAt": "2015-06-03T18:56:15.487Z",
+              "id": "556f4dcbcc567ef81b8b45bb"
+            }
+          ],
+          "mathMapCategory": "556f4dbecc567ef81b8b29de",
+          "category": "So",
+          "key": "211E",
+          "names": null,
+          "createdAt": "2015-06-03T18:55:58.354Z",
+          "updatedAt": "2015-06-03T18:55:58.354Z",
+          "id": "556f4dbecc567ef81b8b29e7"
+        }
+    </code>
+</pre>
+
+<h3>Mappings</h3>
+<p>This endpoint retrieves an array of mappings for the given rule.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/rule/mappings/{id}</code>
+</p>
+
+<h4>Query Parameters</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Description</th>
+            <th>Required?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>id</td>
+            <td>Id of rule</td>
+            <td>Yes</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        [
+          {
+            "rule": "556f4dbecc567ef81b8b29f5",
+            "ruleSet": "556f4dbecc567ef81b8b29d5",
+            "createdAt": "2015-06-03T18:56:06.595Z",
+            "speak": "estimated symbol",
+            "style": "default",
+            "updatedAt": "2015-06-03T18:56:12.264Z",
+            "id": "556f4dc6cc567ef81b8b3c42"
+          },
+          {
+            "rule": "556f4dbecc567ef81b8b29f5",
+            "ruleSet": "556f4dbecc567ef81b8b29d5",
+            "createdAt": "2015-06-03T18:56:08.354Z",
+            "speak": "estimated",
+            "style": "short",
+            "updatedAt": "2015-06-03T18:56:20.271Z",
+            "id": "556f4dc8cc567ef81b8b3fe3"
+          }
+        ]
+    </code>
+</pre>
+
+
+<h3>RuleSets</h3>
+<p>This endpoint retrieves a list of all rule sets.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/rulesets</code>
+</p>
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        [
+          {
+            "name": "default",
+            "status": "Live",
+            "permission": "Public",
+            "createdAt": "2015-06-03T18:55:58.277Z",
+            "updatedAt": "2015-06-03T18:55:58.277Z",
+            "id": "556f4dbecc567ef81b8b29d5"
+          },
+          {
+            "name": "mathspeak",
+            "status": "Live",
+            "permission": "Public",
+            "createdAt": "2015-06-03T18:55:58.281Z",
+            "updatedAt": "2015-06-03T18:55:58.281Z",
+            "id": "556f4dbecc567ef81b8b29d6"
+          },
+          {
+            "name": "physics",
+            "status": "Live",
+            "permission": "Public",
+            "createdAt": "2015-06-03T18:56:00.329Z",
+            "updatedAt": "2015-06-03T18:56:00.329Z",
+            "id": "556f4dc0cc567ef81b8b2df0"
+          }
+        ]
+    </code>
+</pre>
+
+<h3>Rules</h3>
+<p>This endpoint retrieves a list of all rules.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/rules</code>
+</p>
+
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        [
+          {
+            "mappings": [
+              {
+                "createdAt": "2015-06-03T18:56:11.419Z",
+                "rule": "556f4dbecc567ef81b8b29e7",
+                "ruleSet": "556f4dbecc567ef81b8b29d5",
+                "speak": "prescription take",
+                "style": "default",
+                "updatedAt": "2015-06-03T18:56:15.487Z",
+                "id": "556f4dcbcc567ef81b8b45bb"
+              }
+            ],
+            "mathMapCategory": "556f4dbecc567ef81b8b29de",
+            "category": "So",
+            "key": "211E",
+            "names": null,
+            "createdAt": "2015-06-03T18:55:58.354Z",
+            "updatedAt": "2015-06-03T18:55:58.354Z",
+            "id": "556f4dbecc567ef81b8b29e7"
+          },
+          {
+            "mappings": [
+              {
+                "createdAt": "2015-06-03T18:56:01.749Z",
+                "rule": "556f4dbecc567ef81b8b29e8",
+                "ruleSet": "556f4dbecc567ef81b8b29d5",
+                "speak": "versicle",
+                "style": "default",
+                "updatedAt": "2015-06-03T18:56:08.577Z",
+                "id": "556f4dc1cc567ef81b8b3347"
+              }
+            ],
+            "mathMapCategory": "556f4dbecc567ef81b8b29de",
+            "category": "So",
+            "key": "2123",
+            "names": null,
+            "createdAt": "2015-06-03T18:55:58.355Z",
+            "updatedAt": "2015-06-03T18:55:58.355Z",
+            "id": "556f4dbecc567ef81b8b29e8"
+          },
+          ...
+        ]
+    </code>
+</pre>
+
