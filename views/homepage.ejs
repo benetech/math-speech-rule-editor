@@ -1,14 +1,47 @@
 <h1>Introduction</h1>
 
+<p>
+  To get started, read through the docum
+
 <h2>Where to edit files</h2>
 <p>
     This file is located at views/homepage.ejs. For more information on how to create a single-page app on top 
     of this API, see <a href="http://sailsjs.org/#!/documentation/concepts/Views?q=what-about-singlepage-apps">What about single-page apps?</a>
 </p>
 
-<h2>Resource Descriptions</h2>
 
-<h3>Rule</h3>
+<h2>Documentation</h2>
+
+<ul>
+  <li>
+    <a href="#resource-descriptions">Resource Descriptions</a>
+    <ul>
+      <li><a href="#rule">Rule</a>
+      <li><a href="#mappings">Mappings</a>
+      <li><a href="#rulesets">RuleSets</a>
+      <li><a href="#rules">Rules</a>
+      <li><a href="#countries">Countries</a>
+      <li><a href="#states">States</a>
+    </ul>
+  </li>
+  <li><a href="https://github.com/zorkow/speech-rule-engine">Speech Rule Engine</a></li>
+  <li><a href="http://sailsjs.org/#!/documentation/concepts">Sails documentation</a></li>
+</ul>
+
+<h2>Mocks</h2>
+<p>
+<h3>Create A RuleSet</h3>
+<img src="/images/save.png" alt="Edit RuleSet Mock" class="img-thumbnail">
+</p>
+<p>
+<h3>Edit A RuleSet</h3>
+<img src="/images/edit.png" alt="Edit RuleSet Mock" class="img-thumbnail">
+</p>
+
+
+<h2 id="resource-descriptions">Resource Descriptions</h2>
+
+<h3 id="rule">Rule</h3>
 <p>This endpoint retrieves a rule by id.</p>
 
 <h4>HTTP Request</h4>
@@ -61,7 +94,64 @@
     </code>
 </pre>
 
-<h3>Mappings</h3>
+<h3 id="rule">Create Rule Set</h3>
+<p>This endpoint creates a rule set.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">POST http://localhost:1337/ruleset</code>
+</p>
+
+<h4>Query Parameters</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Description</th>
+            <th>Required?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>Name of ruleset</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>baseRuleSet</td>
+            <td>ID of Rule Set to extend</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>Status of Rule Set (Pending or Live)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>permission</td>
+            <td>Permission for Rule Set (Private or Public)</td>
+            <td>Yes</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        {
+          "name": "\"New Ruleset\"",
+          "baseRuleSet": null,
+          "status": "Pending",
+          "permission": "Private",
+          "createdAt": "2015-06-05T14:40:44.929Z",
+          "updatedAt": "2015-06-05T14:40:44.929Z",
+          "id": "5571b4ecdc4063ae06581460"
+        }
+    </code>
+</pre>
+
+<h3 id="mappings">Mappings</h3>
 <p>This endpoint retrieves an array of mappings for the given rule.</p>
 
 <h4>HTTP Request</h4>
@@ -115,7 +205,7 @@
 </pre>
 
 
-<h3>RuleSets</h3>
+<h3 id="rulesets">RuleSets</h3>
 <p>This endpoint retrieves a list of all rule sets.</p>
 
 <h4>HTTP Request</h4>
@@ -156,7 +246,7 @@
     </code>
 </pre>
 
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p>This endpoint retrieves a list of all rules.</p>
 
 <h4>HTTP Request</h4>
@@ -209,6 +299,86 @@
             "createdAt": "2015-06-03T18:55:58.355Z",
             "updatedAt": "2015-06-03T18:55:58.355Z",
             "id": "556f4dbecc567ef81b8b29e8"
+          },
+          ...
+        ]
+    </code>
+</pre>
+
+<h3 id="countries">Countries</h3>
+<p>This endpoint retrieves a list of all countries.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/countries</code>
+</p>
+
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        [
+          {
+            "code": "AX",
+            "name": "Åland Islands",
+            "createdAt": "2015-06-05T14:27:43.947Z",
+            "updatedAt": "2015-06-05T14:27:43.947Z",
+            "id": "5571b1dfdc4063ae0658133e"
+          },
+          {
+            "code": "AO",
+            "name": "Angola",
+            "createdAt": "2015-06-05T14:27:43.947Z",
+            "updatedAt": "2015-06-05T14:27:43.947Z",
+            "id": "5571b1dfdc4063ae0658133f"
+          },
+          {
+            "code": "AM",
+            "name": "Armenia",
+            "createdAt": "2015-06-05T14:27:43.948Z",
+            "updatedAt": "2015-06-05T14:27:43.948Z",
+            "id": "5571b1dfdc4063ae06581340"
+          },
+          ...
+        ]
+    </code>
+</pre>
+
+<h3 id="states">States</h3>
+<p>This endpoint retrieves a list of all states.</p>
+
+<h4>HTTP Request</h4>
+<p>
+    <code class="prettyprint">GET http://localhost:1337/states</code>
+</p>
+
+
+<h4>Response</h4>
+<p>The above command returns JSON structured like this:</p>
+<pre class="highlight json">
+    <code>
+        [
+          {
+            "code": "AL",
+            "name": "Alabama",
+            "createdAt": "2015-06-05T14:26:46.218Z",
+            "updatedAt": "2015-06-05T14:26:46.218Z",
+            "id": "5571b1a68e809798066f6ae2"
+          },
+          {
+            "code": "CA",
+            "name": "California",
+            "createdAt": "2015-06-05T14:27:43.941Z",
+            "updatedAt": "2015-06-05T14:27:43.941Z",
+            "id": "5571b1dfdc4063ae06581333"
+          },
+          {
+            "code": "FM",
+            "name": "Federated States Of Micronesia",
+            "createdAt": "2015-06-05T14:27:43.943Z",
+            "updatedAt": "2015-06-05T14:27:43.943Z",
+            "id": "5571b1dfdc4063ae06581334"
           },
           ...
         ]

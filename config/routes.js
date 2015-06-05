@@ -46,17 +46,22 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
   'get /ruleSet/import': {
-    controller: 'RuleSetController',
+    controller: 'ImportExportController',
     action: 'import'
   },
 
+  'get /seedData': {
+    controller: 'ImportExportController',
+    action: 'seedStatesAndCountries'
+  },
+
   'get /ruleSet/previewExport': {
-    controller: 'RuleSetController',
+    controller: 'ImportExportController',
     action: 'previewExport'
   },
 
   'get /ruleSet/export': {
-    controller: 'RuleSetController',
+    controller: 'ImportExportController',
     action: 'export'
   },
 
@@ -93,6 +98,26 @@ module.exports.routes = {
   'put /mapping/:id': {
     controller: 'RuleSetController',
     action: 'updateMapping'
+  },
+
+  'post /ruleset': {
+    controller: 'RuleSetController',
+    action: 'createRuleset'
+  },
+
+  'put /ruleset/:id': {
+    controller: 'RuleSetController',
+    action: 'updateRuleSet'
+  },
+
+  'get /countries': {
+    controller: 'ReferenceDataController',
+    action: 'countries'
+  },
+
+  'get /states': {
+    controller: 'ReferenceDataController',
+    action: 'states'
   }
 
 };

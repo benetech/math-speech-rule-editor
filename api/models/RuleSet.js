@@ -4,12 +4,12 @@
 * @description :: A set of rules to describe math.
 * @docs        :: http://sailsjs.org/#!documentation/models
 */
-
 module.exports = {
   attributes: {
     name: {
         type: 'string',
-        required: true
+        required: true,
+        unique: true
     },
     baseRuleSet: { 
         model: 'RuleSet' 
@@ -23,7 +23,8 @@ module.exports = {
         type: 'string',
         required: true,
         enum: ['Private', 'Public']
-    }
+    },
+    subjectArea: 'string'
   }
 };
 
