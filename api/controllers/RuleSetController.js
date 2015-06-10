@@ -8,12 +8,32 @@ var waterfall = require('async'), exec = require('child_process').exec;
 module.exports = {
 
     /** Get a list of rulesets. TODO: filter by permissions. */
-    rulesets: function(req, res) {
+    ruleSets: function(req, res) {
         RuleSet.find().then(function(rulesets) {
             return res.json(rulesets);
         }).catch(function(err) {
             console.log(err);
             return res.badRequest(err);
+        });
+    },
+
+    ruleSet: function(req, res) {
+        RuleSet.find({id: req.param("id")}).then(function(ruleset) {
+            return res.json(ruleset);
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        });
+    },
+
+    ruleSetStyles: function(req, res) {
+        Mapping.native(function (err, collection){
+            collection.distinct('style', {
+                ruleSet: RuleSet.mongo.objectId(req.param("id"))
+            }, function (err, styles){
+                if (err) return red.badRequest(err);
+                return res.json(styles);
+            });
         });
     },
 

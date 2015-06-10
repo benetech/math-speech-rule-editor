@@ -67,7 +67,7 @@ module.exports.routes = {
 
   'get /rulesets/': {
     controller: 'RuleSetController',
-    action: 'rulesets'
+    action: 'ruleSets'
   },
 
   'get /rules': {
@@ -78,6 +78,16 @@ module.exports.routes = {
   'get /rule/:id': {
     controller: 'RuleSetController',
     action: 'rule'
+  },
+
+  'get /ruleset/:id': {
+    controller: 'RuleSetController',
+    action: 'ruleSet'
+  },
+
+  'get /ruleset/styles/:id': {
+    controller: 'RuleSetController',
+    action: 'ruleSetStyles'
   },
 
   'get /rule/mappings/:id': {
