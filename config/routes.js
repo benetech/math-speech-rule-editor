@@ -128,6 +128,21 @@ module.exports.routes = {
   'get /states': {
     controller: 'ReferenceDataController',
     action: 'states'
+  },
+
+  'get /mathmaps': {
+    controller: 'RuleSetController',
+    action: 'mathMaps'
+  },
+
+  'get /mathmap/categories/:id': {
+    controller: 'RuleSetController',
+    action: 'mathMapCategories'
+  },
+
+  'get /mathmapcategory/rules/:id': {
+    controller: 'RuleSetController',
+    action: 'categoryRules'
   }
 
 };

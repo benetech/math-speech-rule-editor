@@ -18,7 +18,7 @@ module.exports = {
     },
 
     ruleSet: function(req, res) {
-        RuleSet.find({id: req.param("id")}).then(function(ruleset) {
+        RuleSet.findOne({id: req.param("id")}).then(function(ruleset) {
             return res.json(ruleset);
         }).catch(function(err) {
             console.log(err);
@@ -113,6 +113,33 @@ module.exports = {
             console.log(err);
             return res.badRequest(err);
         });
+    },
+
+    mathMaps: function(req, res) {
+        MathMap.find().then(function(mathMaps) {
+            return res.json(mathMaps);
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        })
+    },
+
+    mathMapCategories: function(req, res) {
+        MathMapCategory.find({mathMap: req.param("id")}).then(function(categories) {
+            return res.json(categories);
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        })
+    },
+
+    categoryRules: function(req, res) {
+        Rule.find({mathMapCategory: req.param("id")}).populate("mappings").then(function(rules) {
+            return res.json(rules);
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        })
     }
 };
 
