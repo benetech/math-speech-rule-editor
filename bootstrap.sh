@@ -9,7 +9,7 @@ ln -s /usr/bin/nodejs /usr/bin/node
 cd /vagrant
 
 # Install Node.JS packages.
-npm -g -y install sails@0.10.5 azure-cli forever
+npm -g -y install sails@0.10.5 forever
 npm -y install --no-bin-links
 
 #Lift sails.
