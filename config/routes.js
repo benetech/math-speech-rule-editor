@@ -65,7 +65,7 @@ module.exports.routes = {
     action: 'export'
   },
 
-  'get /rulesets/': {
+  'get /rulesets': {
     controller: 'RuleSetController',
     action: 'ruleSets'
   },
