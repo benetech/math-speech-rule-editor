@@ -1,12 +1,15 @@
-Notice:
-Apache math-speech-rule-editor
-Copyright 2015 The Apache Software Foundation
+Math Speech Rule Editor
+Copyright 2015, Benetech Inc.
 
-This product includes software developed at The Apache Software Foundation (http://www.apache.org/).
+This product includes software developed at Benetech Inc. (http://www.benetech.org/) and contains code derived from Speech Rule Engine, developed by Volker Sorge (http://progressiveaccess.com/).
 
-Portions of this software were developed by Chromevox and [some information about Volker's affiliation]. This software contains code derived from [Volker's affiliation], including various modifications by Benetech that retains any copyright, patent, trademark, and attribution notices that were in the original code used.
+Notice: Speech Rule Engine
+Copyright 2014-2015 Volker Sorge
 
-The original software is available from https://github.com/zorkow/speech-rule-engine.
+This product includes software developed by
+Volker Sorge (http://progressiveaccess.com/)
+originally implemented in the context of ChromeVox at
+Google Inc. (http://google.com/).
 
 Copyright (c) 2015, Benetech Inc.
 All rights reserved.
