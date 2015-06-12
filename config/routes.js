@@ -85,12 +85,12 @@ module.exports.routes = {
     action: 'ruleSet'
   },
 
-  'get /ruleset/styles/:id': {
+  'get /ruleset/:id/styles': {
     controller: 'RuleSetController',
     action: 'ruleSetStyles'
   },
 
-  'get /rule/mappings/:id': {
+  'get /rule/:id/mappings': {
     controller: 'RuleSetController',
     action: 'ruleMappings'
   },
@@ -135,12 +135,12 @@ module.exports.routes = {
     action: 'mathMaps'
   },
 
-  'get /mathmap/categories/:id': {
+  'get /mathmap/:id/categories': {
     controller: 'RuleSetController',
     action: 'mathMapCategories'
   },
 
-  'get /mathmapcategory/rules/:id': {
+  'get /mathmap/category/:id/rules': {
     controller: 'RuleSetController',
     action: 'categoryRules'
   }
