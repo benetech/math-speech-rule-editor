@@ -1,0 +1,134 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1210" measuredH="762" mockupW="1174" mockupH="744">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="36" y="18" w="878" h="744" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>math-speech-rule-editor_editor-form</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="71" y="396" w="809" h="312" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Customize%20your%20rule%20set%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="281" y="198" w="-1" h="-1" measuredW="108" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Base%20Speech%20Rule</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="281" y="137" w="-1" h="-1" measuredW="90" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name%20Rule%20Set</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="717" y="655" w="134" h="27" measuredW="109" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save%20Changes</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ComboBox" x="416" y="198" w="158" h="-1" measuredW="97" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>MathSpeak%0ASimpleSpeak</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::DataGrid" x="107" y="437" w="729" h="203" measuredW="611" measuredH="231" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Symbol/Function%2C%20Default%20description%2C%20Change%20to%2C%20Action%0Af%28%29%2C%20f%20left-parenthesis%20x%20right-parenthesis%2C%20function%20of%20%28value%29%2C%20%5Bcancel%5D%20%5Bsave%5D%0A-x/2%2C%20minus%20x%20slash%202%2C%20the%20fraction%20negative%20x%20over%202%2C%20%5Bcancel%5D%20%5Bsave%5D%0Axy%2C%20x%20y%2C%20x%20times%20y%2C%20%5Bcancel%5D%20%5Bsave%5D%0A...%20%2C%20...%20%2C%20...%20%2C%20%5Bcancel%5D%20%5Bsave%5D%0A...%0A...%0A...</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="574" y="655" w="134" h="27" measuredW="73" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Clear%20All</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="280" y="272" w="-1" h="-1" measuredW="124" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comments%20%28optional%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::TextArea" x="415" y="272" w="425" h="54" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::ButtonBar" x="71" y="137" w="176" h="27" measuredW="176" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Math_CRS%20Attributes_20150513%26bm%3BMath_CRS%20Attributes_20150513.bmml%26bm%3BMath_CRS%20Attributes_20150513.bmml%26bm%3BMath_CRS%20Attributes_20150513.bmml%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2235%2C119%2C100%2C146%22%20href%3D%22Math_CRS%2520Attributes_20150513.bmml%22%20alt%3D%22Math_CRS%20Attributes_20150513%22%20id%3D%2223%22/%3E</map>
+        <selectedIndex>1</selectedIndex>
+        <text>Create%2C%20Edit%2C%20Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Tree" x="71" y="158" w="176" h="210" measuredW="300" measuredH="225" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>2</selectedIndex>
+        <text>f%20Statistics%0Af%20Geometry%0Af%20TX%20Assessments%0Af%20NY%20Assessments%0Af%20Dyslexia%0Af%20Low%20Vision</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="281" y="236" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Speech%20Style</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::ComboBox" x="416" y="234" w="158" h="-1" measuredW="132" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>verbose%20%28default%29%0Abrief%0Asuper%20brief</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::VCurly" x="600" y="228" w="552" h="36" measuredW="180" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Options%20vary%20according%20to%20the%20selected%20%22Speech%20Rule%22.%20The%20listed%20are%20current%20options%20for%20MathSpeak%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="416" y="137" w="-1" h="-1" measuredW="102" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>TX%20Assessments</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::VCurly" x="600" y="188" w="551" h="41" measuredW="180" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>this%20is%20%22Domain.%22%20Consider%20adding%20copy%20function%20or%20using%20other%20custom%20speech%20rules%20%28open-source%20or%20owned%20by%20user%29%20as%20base</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="281" y="164" w="-1" h="-1" measuredW="39" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Status</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::VCurly" x="533" y="133" w="368" h="29" measuredW="180" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>auto-populates%20per%20left%20panel</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="416" y="164" w="-1" h="-1" measuredW="66" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>in%20progress</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::VCurly" x="533" y="160" w="433" h="29" measuredW="180" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>auto-populates%3B%20options%3A%20approved%2C%20in%20review%2C%20in%20progress%2C%20deleted</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::VCurly" x="920" y="441" w="290" h="203" measuredW="180" measuredH="140" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Allow%20user%20to%20review%20the%20symbols/functions/%28maybe%20units%29%20and%20what%20the%20current%20speech%20rule%20generates.%20Then%2C%20provide%20the%20option%20for%20users%20to%20modify%20and%20create%20their%20own%20speech%20rules.%20%0A%20%0AMore%20discussion%20required%20around%20the%20flow%20and%20how%20best%20to%20present%20information%20that%20makes%20sense.%20Currently%2C%20it%20would%20show%20something%20like%20/%20%28%22slash%22%29%20which%20would%20be%20very%20hard%20to%20understand%20without%20more%20context.</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="833" y="438" w="-1" h="202" measuredW="16" measuredH="100" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="835" y="272" w="-1" h="54" measuredW="16" measuredH="100" zOrder="23" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Button" x="717" y="344" w="134" h="27" measuredW="117" measuredH="27" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit%20Request</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::VCurly" x="914" y="337" w="272" h="48" measuredW="180" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%22default%20description%22%20in%20below%20table%20populates%20based%20off%20of%20the%20selected%20base%20rule%20and%20verbosity</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
