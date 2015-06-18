@@ -13,8 +13,8 @@ module.exports = {
     import: function(req, res) {
         //before we do anything, create the default rulesets.
         RuleSetImportExporter.createDefaultRulesets(function() {
-            var mathmaps = RuleSetImportExporter.getMathMapDirectories(pathToMathMaps) +
-		RuleSetImportExporter.getMathMapDirectories(pathToSpellRules);
+          var mathmaps = RuleSetImportExporter.getMathMapDirectories(pathToMathMaps).concat(
+	    RuleSetImportExporter.getMathMapDirectories(pathToSpellRules));
             for (var m = 0; m < mathmaps.length; m++) {
                 MathMap.findOrCreate({name: mathmaps[m]}).then(function(mathmap) {
                     RuleSetImportExporter.importMathMap(pathToMathMaps + mathmap.name, mathmap);
