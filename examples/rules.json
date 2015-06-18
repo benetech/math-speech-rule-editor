@@ -1,6 +1,7 @@
+[
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -39,7 +40,7 @@
   },
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -78,7 +79,7 @@
   },
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -117,7 +118,7 @@
   },
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -155,7 +156,7 @@
   },
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -193,7 +194,7 @@
   },
   {
     "key": "tensor01100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -231,7 +232,7 @@
   },
   {
     "key": "tensor01100",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -263,7 +264,7 @@
   },
   {
     "key": "tensor01100",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -295,7 +296,7 @@
   },
   {
     "key": "tensor01100",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -327,7 +328,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -375,7 +376,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -423,7 +424,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -471,7 +472,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -518,7 +519,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -565,7 +566,7 @@
   },
   {
     "key": "tensor01101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -612,7 +613,7 @@
   },
   {
     "key": "tensor01101",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -653,7 +654,7 @@
   },
   {
     "key": "tensor01101",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -694,7 +695,7 @@
   },
   {
     "key": "tensor01101",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -735,7 +736,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -783,7 +784,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -831,7 +832,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -879,7 +880,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -926,7 +927,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -973,7 +974,7 @@
   },
   {
     "key": "tensor01110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1020,7 +1021,7 @@
   },
   {
     "key": "tensor01110",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -1061,7 +1062,7 @@
   },
   {
     "key": "tensor01110",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -1102,7 +1103,7 @@
   },
   {
     "key": "tensor01110",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\"",
@@ -1143,7 +1144,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1200,7 +1201,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1257,7 +1258,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1314,7 +1315,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1370,7 +1371,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1426,7 +1427,7 @@
   },
   {
     "key": "tensor01111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1482,7 +1483,7 @@
   },
   {
     "key": "tensor01111",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\""
@@ -1532,7 +1533,7 @@
   },
   {
     "key": "tensor01111",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\""
@@ -1582,7 +1583,7 @@
   },
   {
     "key": "tensor01111",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[2])=\"empty\""
@@ -1632,7 +1633,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1671,7 +1672,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1710,7 +1711,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -1749,7 +1750,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1787,7 +1788,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1825,7 +1826,7 @@
   },
   {
     "key": "tensor10100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -1863,7 +1864,7 @@
   },
   {
     "key": "tensor10100",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -1895,7 +1896,7 @@
   },
   {
     "key": "tensor10100",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -1927,7 +1928,7 @@
   },
   {
     "key": "tensor10100",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -1959,7 +1960,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2007,7 +2008,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2055,7 +2056,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2103,7 +2104,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2150,7 +2151,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2197,7 +2198,7 @@
   },
   {
     "key": "tensor10101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2244,7 +2245,7 @@
   },
   {
     "key": "tensor10101",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2285,7 +2286,7 @@
   },
   {
     "key": "tensor10101",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2326,7 +2327,7 @@
   },
   {
     "key": "tensor10101",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2367,7 +2368,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2415,7 +2416,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2463,7 +2464,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2511,7 +2512,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2558,7 +2559,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2605,7 +2606,7 @@
   },
   {
     "key": "tensor10110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -2652,7 +2653,7 @@
   },
   {
     "key": "tensor10110",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2693,7 +2694,7 @@
   },
   {
     "key": "tensor10110",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2734,7 +2735,7 @@
   },
   {
     "key": "tensor10110",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\"",
@@ -2775,7 +2776,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2832,7 +2833,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2889,7 +2890,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -2946,7 +2947,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3002,7 +3003,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3058,7 +3059,7 @@
   },
   {
     "key": "tensor10111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3114,7 +3115,7 @@
   },
   {
     "key": "tensor10111",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\""
@@ -3164,7 +3165,7 @@
   },
   {
     "key": "tensor10111",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\""
@@ -3214,7 +3215,7 @@
   },
   {
     "key": "tensor10111",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[3])=\"empty\""
@@ -3264,7 +3265,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3312,7 +3313,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3360,7 +3361,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3408,7 +3409,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3455,7 +3456,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3502,7 +3503,7 @@
   },
   {
     "key": "tensor11100-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3549,7 +3550,7 @@
   },
   {
     "key": "tensor11100",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\"",
@@ -3590,7 +3591,7 @@
   },
   {
     "key": "tensor11100",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\"",
@@ -3631,7 +3632,7 @@
   },
   {
     "key": "tensor11100",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\"",
@@ -3672,7 +3673,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3729,7 +3730,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3786,7 +3787,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -3843,7 +3844,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3899,7 +3900,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -3955,7 +3956,7 @@
   },
   {
     "key": "tensor11101-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -4011,7 +4012,7 @@
   },
   {
     "key": "tensor11101",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\""
@@ -4061,7 +4062,7 @@
   },
   {
     "key": "tensor11101",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\""
@@ -4111,7 +4112,7 @@
   },
   {
     "key": "tensor11101",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[4])=\"empty\""
@@ -4161,7 +4162,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4218,7 +4219,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4275,7 +4276,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4332,7 +4333,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -4388,7 +4389,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -4444,7 +4445,7 @@
   },
   {
     "key": "tensor11110-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*",
@@ -4500,7 +4501,7 @@
   },
   {
     "key": "tensor11110",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[5])=\"empty\""
@@ -4550,7 +4551,7 @@
   },
   {
     "key": "tensor11110",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[5])=\"empty\""
@@ -4600,7 +4601,7 @@
   },
   {
     "key": "tensor11110",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "name(children/*[5])=\"empty\""
@@ -4650,7 +4651,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4716,7 +4717,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4782,7 +4783,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "not(following-sibling::*)",
@@ -4848,7 +4849,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*"
@@ -4913,7 +4914,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*"
@@ -4978,7 +4979,7 @@
   },
   {
     "key": "tensor11111-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [
       "following-sibling::*"
@@ -5043,7 +5044,7 @@
   },
   {
     "key": "tensor11111",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::tensor",
     "constraints": [],
     "actions": [
@@ -5101,7 +5102,7 @@
   },
   {
     "key": "tensor11111",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::tensor",
     "constraints": [],
     "actions": [
@@ -5159,7 +5160,7 @@
   },
   {
     "key": "tensor11111",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::tensor",
     "constraints": [],
     "actions": [
@@ -5217,7 +5218,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5253,7 +5254,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5289,7 +5290,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5325,7 +5326,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5361,7 +5362,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5397,7 +5398,7 @@
   },
   {
     "key": "cancel-reverse",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "name(children/*[2])=\"enclose\"",
@@ -5433,7 +5434,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5468,7 +5469,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5503,7 +5504,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5538,7 +5539,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5573,7 +5574,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5608,7 +5609,7 @@
   },
   {
     "key": "cancel",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5643,7 +5644,7 @@
   },
   {
     "key": "crossout",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"updiagonalstrike\" or @role=\"downdiagonalstrike\" or @role=\"horizontalstrike\""
@@ -5668,7 +5669,7 @@
   },
   {
     "key": "rightbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"right\""
@@ -5688,7 +5689,7 @@
   },
   {
     "key": "leftbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"left\""
@@ -5708,7 +5709,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"bottom\""
@@ -5728,7 +5729,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"bottom\""
@@ -5748,7 +5749,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"bottom\""
@@ -5768,7 +5769,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"top\""
@@ -5788,7 +5789,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"top\""
@@ -5808,7 +5809,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::enclose",
     "constraints": [
       "@role=\"top\""
@@ -5828,7 +5829,7 @@
   },
   {
     "key": "enclose",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::enclose",
     "constraints": [],
     "actions": [
@@ -5856,7 +5857,7 @@
   },
   {
     "key": "cases",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::cases",
     "constraints": [],
     "actions": [
@@ -5878,7 +5879,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -5889,7 +5899,7 @@
   },
   {
     "key": "cases",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::cases",
     "constraints": [],
     "actions": [
@@ -5911,7 +5921,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -5922,7 +5941,7 @@
   },
   {
     "key": "binomial",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::vector",
     "constraints": [
       "@role=\"binomial\""
@@ -5957,7 +5976,7 @@
   },
   {
     "key": "binomial",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::vector",
     "constraints": [
       "@role=\"binomial\""
@@ -5992,7 +6011,7 @@
   },
   {
     "key": "layout",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::table",
     "constraints": [],
     "actions": [
@@ -6004,7 +6023,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6015,7 +6043,7 @@
   },
   {
     "key": "layout",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::table",
     "constraints": [],
     "actions": [
@@ -6027,7 +6055,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6038,7 +6075,7 @@
   },
   {
     "key": "row-simple",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::row",
     "constraints": [
       "@role=\"determinant\"",
@@ -6054,7 +6091,7 @@
   },
   {
     "key": "determinant-simple",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::matrix",
     "constraints": [
       "@role=\"determinant\"",
@@ -6089,7 +6126,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row\""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6105,7 +6151,7 @@
   },
   {
     "key": "determinant-simple",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::matrix",
     "constraints": [
       "@role=\"determinant\"",
@@ -6145,7 +6191,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row\""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6161,7 +6216,7 @@
   },
   {
     "key": "determinant",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::matrix",
     "constraints": [
       "@role=\"determinant\""
@@ -6190,7 +6245,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6201,7 +6265,7 @@
   },
   {
     "key": "determinant",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::matrix",
     "constraints": [
       "@role=\"determinant\""
@@ -6235,7 +6299,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6246,7 +6319,7 @@
   },
   {
     "key": "empty-cell",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::cell",
     "constraints": [
       "count(children/*)=1",
@@ -6262,7 +6335,7 @@
   },
   {
     "key": "matrix-cell",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::cell",
     "constraints": [],
     "actions": [
@@ -6275,20 +6348,29 @@
   },
   {
     "key": "matrix-row",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::row",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Column\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "matrix",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::vector",
     "constraints": [],
     "actions": [
@@ -6300,13 +6382,26 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"row\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "matrix",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::vector",
     "constraints": [],
     "actions": [
@@ -6338,7 +6433,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6349,7 +6453,7 @@
   },
   {
     "key": "matrix",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::vector",
     "constraints": [],
     "actions": [
@@ -6376,7 +6480,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6387,7 +6500,7 @@
   },
   {
     "key": "matrix",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::matrix",
     "constraints": [],
     "actions": [
@@ -6414,7 +6527,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6425,7 +6547,7 @@
   },
   {
     "key": "matrix",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::matrix",
     "constraints": [],
     "actions": [
@@ -6457,7 +6579,16 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFordinalCounter"
+          ],
+          [
+            "context",
+            "\"Row \""
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -6468,7 +6599,7 @@
   },
   {
     "key": "matrix-fence",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fenced",
     "constraints": [
       "count(children/*)=1",
@@ -6484,7 +6615,7 @@
   },
   {
     "key": "undertilde",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6506,7 +6637,7 @@
   },
   {
     "key": "undertilde",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6528,7 +6659,7 @@
   },
   {
     "key": "undertilde",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6550,7 +6681,7 @@
   },
   {
     "key": "overtilde",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -6572,7 +6703,7 @@
   },
   {
     "key": "overtilde",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -6594,7 +6725,7 @@
   },
   {
     "key": "overtilde",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -6616,7 +6747,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6638,7 +6769,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6660,7 +6791,7 @@
   },
   {
     "key": "underbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6682,7 +6813,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6704,7 +6835,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6726,7 +6857,7 @@
   },
   {
     "key": "overbar",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "@role=\"latinletter\" or @role=\"greekletter\" or @role=\"otherletter\"",
@@ -6748,7 +6879,7 @@
   },
   {
     "key": "double-underscore",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]",
@@ -6780,7 +6911,7 @@
   },
   {
     "key": "double-underscore",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]",
@@ -6812,7 +6943,7 @@
   },
   {
     "key": "double-underscore",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]",
@@ -6844,7 +6975,7 @@
   },
   {
     "key": "underscore",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]"
@@ -6874,7 +7005,7 @@
   },
   {
     "key": "underscore",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]"
@@ -6904,7 +7035,7 @@
   },
   {
     "key": "underscore",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role=\"underaccent\"]"
@@ -6934,7 +7065,7 @@
   },
   {
     "key": "double-overscore",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -6966,7 +7097,7 @@
   },
   {
     "key": "double-overscore",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -6998,7 +7129,7 @@
   },
   {
     "key": "double-overscore",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]",
@@ -7030,7 +7161,7 @@
   },
   {
     "key": "overscore",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]"
@@ -7060,7 +7191,7 @@
   },
   {
     "key": "overscore",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]"
@@ -7090,7 +7221,7 @@
   },
   {
     "key": "overscore",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role=\"overaccent\"]"
@@ -7120,7 +7251,7 @@
   },
   {
     "key": "prime-subscript-simple",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7150,7 +7281,7 @@
   },
   {
     "key": "prime-subscript-simple",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7180,7 +7311,7 @@
   },
   {
     "key": "prime-subscript-simple",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7210,7 +7341,7 @@
   },
   {
     "key": "prime-subscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7247,7 +7378,7 @@
   },
   {
     "key": "prime-subscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7284,7 +7415,7 @@
   },
   {
     "key": "prime-subscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7321,7 +7452,7 @@
   },
   {
     "key": "prime-subscript",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7353,7 +7484,7 @@
   },
   {
     "key": "prime-subscript",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7385,7 +7516,7 @@
   },
   {
     "key": "prime-subscript",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][@role=\"prime\"]",
@@ -7417,7 +7548,7 @@
   },
   {
     "key": "prime",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7438,7 +7569,7 @@
   },
   {
     "key": "prime",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7459,7 +7590,7 @@
   },
   {
     "key": "prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7480,7 +7611,7 @@
   },
   {
     "key": "cube",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7503,7 +7634,7 @@
   },
   {
     "key": "cube",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7526,7 +7657,7 @@
   },
   {
     "key": "cube",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7549,7 +7680,7 @@
   },
   {
     "key": "square",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7572,7 +7703,7 @@
   },
   {
     "key": "square",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7595,7 +7726,7 @@
   },
   {
     "key": "square",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2]",
@@ -7618,7 +7749,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"subscript\"",
@@ -7639,7 +7770,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"subscript\"",
@@ -7660,7 +7791,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"subscript\"",
@@ -7681,7 +7812,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -7703,7 +7834,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -7725,7 +7856,7 @@
   },
   {
     "key": "superscript-empty-sub",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -7747,7 +7878,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7779,7 +7910,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7811,7 +7942,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7843,7 +7974,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7875,7 +8006,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7907,39 +8038,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
-    "selector": "self::superscript",
-    "constraints": [
-      "not(following-sibling::*)",
-      "ancestor::relseq|ancestor::multirel",
-      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
-    ],
-    "actions": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFsuperscriptVerbose",
-        "personality": []
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFbaselineVerbose",
-        "personality": []
-      }
-    ]
-  },
-  {
-    "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -7971,135 +8070,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
-    "selector": "self::superscript",
-    "constraints": [
-      "not(following-sibling::*)",
-      "ancestor::relseq|ancestor::multirel",
-      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
-    ],
-    "actions": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFsuperscriptBrief",
-        "personality": []
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFbaselineBrief",
-        "personality": []
-      }
-    ]
-  },
-  {
-    "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
-    "selector": "self::superscript",
-    "constraints": [
-      "not(following-sibling::*)",
-      "ancestor::relseq|ancestor::multirel",
-      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
-    ],
-    "actions": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFsuperscriptBrief",
-        "personality": []
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFbaselineBrief",
-        "personality": []
-      }
-    ]
-  },
-  {
-    "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
-    "selector": "self::superscript",
-    "constraints": [
-      "not(following-sibling::*)",
-      "ancestor::relseq|ancestor::multirel",
-      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
-    ],
-    "actions": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFsuperscriptBrief",
-        "personality": []
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFbaselineBrief",
-        "personality": []
-      }
-    ]
-  },
-  {
-    "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
-    "selector": "self::superscript",
-    "constraints": [
-      "not(following-sibling::*)",
-      "ancestor::relseq|ancestor::multirel",
-      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
-    ],
-    "actions": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFsuperscriptBrief",
-        "personality": []
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]",
-        "personality": []
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFbaselineBrief",
-        "personality": []
-      }
-    ]
-  },
-  {
-    "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8131,7 +8102,167 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.brief",
+    "selector": "self::superscript",
+    "constraints": [
+      "not(following-sibling::*)",
+      "ancestor::relseq|ancestor::multirel",
+      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
+    ],
+    "actions": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFsuperscriptBrief",
+        "personality": []
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFbaselineBrief",
+        "personality": []
+      }
+    ]
+  },
+  {
+    "key": "superscript-baseline",
+    "dynamic": "mathspeak.sbrief",
+    "selector": "self::superscript",
+    "constraints": [
+      "not(following-sibling::*)",
+      "ancestor::relseq|ancestor::multirel",
+      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
+    ],
+    "actions": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFsuperscriptBrief",
+        "personality": []
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFbaselineBrief",
+        "personality": []
+      }
+    ]
+  },
+  {
+    "key": "superscript-baseline",
+    "dynamic": "mathspeak.sbrief",
+    "selector": "self::superscript",
+    "constraints": [
+      "not(following-sibling::*)",
+      "ancestor::relseq|ancestor::multirel",
+      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
+    ],
+    "actions": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFsuperscriptBrief",
+        "personality": []
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFbaselineBrief",
+        "personality": []
+      }
+    ]
+  },
+  {
+    "key": "superscript-baseline",
+    "dynamic": "mathspeak.brief",
+    "selector": "self::superscript",
+    "constraints": [
+      "not(following-sibling::*)",
+      "ancestor::relseq|ancestor::multirel",
+      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
+    ],
+    "actions": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFsuperscriptBrief",
+        "personality": []
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFbaselineBrief",
+        "personality": []
+      }
+    ]
+  },
+  {
+    "key": "superscript-baseline",
+    "dynamic": "mathspeak.default",
+    "selector": "self::superscript",
+    "constraints": [
+      "not(following-sibling::*)",
+      "ancestor::relseq|ancestor::multirel",
+      "ancestor::*/following-sibling::* and not(ancestor::subscript or ancestor::superscript or ancestor::tensor) and not(ancestor::fraction/ancestor::relseq | ancestor::fraction/ancestor::multrel | ancestor::punctuation/ancestor::relseq | ancestor::punctuation/ancestor::multrel | ancestor::fenced/ancestor::relseq | ancestor::fenced/ancestor::multrel | ancestor::sqrt/ancestor::relseq | ancestor::sqrt/ancestor::multrel | ancestor::root/ancestor::relseq | ancestor::root/ancestor::multrel)"
+    ],
+    "actions": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFsuperscriptVerbose",
+        "personality": []
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "personality": []
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFbaselineVerbose",
+        "personality": []
+      }
+    ]
+  },
+  {
+    "key": "superscript-baseline",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8162,7 +8293,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8193,7 +8324,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8224,7 +8355,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8255,7 +8386,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8286,7 +8417,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8317,7 +8448,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8349,7 +8480,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8381,7 +8512,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8413,7 +8544,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [
       "following-sibling::*",
@@ -8444,7 +8575,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
       "following-sibling::*",
@@ -8475,7 +8606,7 @@
   },
   {
     "key": "superscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
       "following-sibling::*",
@@ -8506,7 +8637,7 @@
   },
   {
     "key": "superscript",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::superscript",
     "constraints": [],
     "actions": [
@@ -8529,7 +8660,7 @@
   },
   {
     "key": "superscript",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [],
     "actions": [
@@ -8552,7 +8683,7 @@
   },
   {
     "key": "superscript",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [],
     "actions": [
@@ -8575,7 +8706,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"superscript\"",
@@ -8596,7 +8727,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"superscript\"",
@@ -8617,7 +8748,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"superscript\"",
@@ -8638,7 +8769,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -8660,7 +8791,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -8682,7 +8813,7 @@
   },
   {
     "key": "subscript-empty-sup",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "name(children/*[2])=\"infixop\"",
@@ -8704,7 +8835,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8736,7 +8867,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8768,7 +8899,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8800,7 +8931,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8832,7 +8963,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8864,7 +8995,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8896,7 +9027,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8928,7 +9059,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8960,7 +9091,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "not(following-sibling::*)",
@@ -8992,7 +9123,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "following-sibling::*",
@@ -9024,7 +9155,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "following-sibling::*",
@@ -9056,7 +9187,7 @@
   },
   {
     "key": "subscript-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "following-sibling::*",
@@ -9088,7 +9219,7 @@
   },
   {
     "key": "subscript-simple",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [
       "name(./children/*[1])=\"identifier\"",
@@ -9111,7 +9242,7 @@
   },
   {
     "key": "subscript-simple",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [
       "name(./children/*[1])=\"identifier\"",
@@ -9134,7 +9265,7 @@
   },
   {
     "key": "subscript-simple",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [
       "name(./children/*[1])=\"identifier\"",
@@ -9157,7 +9288,7 @@
   },
   {
     "key": "subscript",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::subscript",
     "constraints": [],
     "actions": [
@@ -9180,7 +9311,7 @@
   },
   {
     "key": "subscript",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::subscript",
     "constraints": [],
     "actions": [
@@ -9203,7 +9334,7 @@
   },
   {
     "key": "subscript",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::subscript",
     "constraints": [],
     "actions": [
@@ -9226,20 +9357,25 @@
   },
   {
     "key": "multrel",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::multirel",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "sepFunc",
+            "CTXFcontentIterator"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "multi-equality",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)>2"
@@ -9248,13 +9384,18 @@
       {
         "type": "MULTI",
         "content": "./children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "equality",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)=2"
@@ -9279,7 +9420,7 @@
   },
   {
     "key": "bigop",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::bigop",
     "constraints": [],
     "actions": [
@@ -9297,7 +9438,7 @@
   },
   {
     "key": "integral",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::limboth",
     "constraints": [
       "@role=\"integral\""
@@ -9337,7 +9478,7 @@
   },
   {
     "key": "integral",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::limboth",
     "constraints": [
       "@role=\"integral\""
@@ -9377,7 +9518,7 @@
   },
   {
     "key": "integral",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limboth",
     "constraints": [
       "@role=\"integral\""
@@ -9417,7 +9558,7 @@
   },
   {
     "key": "limupper-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [],
     "actions": [
@@ -9445,7 +9586,7 @@
   },
   {
     "key": "limlower-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [],
     "actions": [
@@ -9473,7 +9614,7 @@
   },
   {
     "key": "limlower-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [],
     "actions": [
@@ -9501,7 +9642,7 @@
   },
   {
     "key": "limlower-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"limit function\""
@@ -9531,7 +9672,7 @@
   },
   {
     "key": "limupper-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limupper",
     "constraints": [],
     "actions": [
@@ -9559,7 +9700,7 @@
   },
   {
     "key": "limlower-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limlower",
     "constraints": [],
     "actions": [
@@ -9587,7 +9728,7 @@
   },
   {
     "key": "limboth-end",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limboth",
     "constraints": [],
     "actions": [
@@ -9625,7 +9766,7 @@
   },
   {
     "key": "limupper",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role!=\"overaccent\"]",
@@ -9652,7 +9793,7 @@
   },
   {
     "key": "limupper",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::overscore",
     "constraints": [
       "children/*[2][@role!=\"overaccent\"]",
@@ -9679,7 +9820,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role!=\"underaccent\"]",
@@ -9706,7 +9847,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role!=\"underaccent\"]",
@@ -9733,7 +9874,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role!=\"underaccent\"]",
@@ -9760,7 +9901,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::underscore",
     "constraints": [
       "children/*[2][@role!=\"underaccent\"]",
@@ -9787,7 +9928,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"limit function\"",
@@ -9814,7 +9955,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::underscore",
     "constraints": [
       "@role=\"limit function\"",
@@ -9841,7 +9982,7 @@
   },
   {
     "key": "limupper",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limupper",
     "constraints": [
       "name(../..)=\"underscore\" or name(../..)=\"overscore\"",
@@ -9867,7 +10008,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limlower",
     "constraints": [
       "name(../..)=\"underscore\" or name(../..)=\"overscore\"",
@@ -9893,7 +10034,7 @@
   },
   {
     "key": "limboth",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::limboth",
     "constraints": [
       "name(../..)=\"underscore\" or name(../..)=\"overscore\"",
@@ -9929,7 +10070,7 @@
   },
   {
     "key": "root",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::root",
     "constraints": [],
     "actions": [
@@ -9962,7 +10103,7 @@
   },
   {
     "key": "root",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::root",
     "constraints": [],
     "actions": [
@@ -9995,7 +10136,7 @@
   },
   {
     "key": "root",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::root",
     "constraints": [],
     "actions": [
@@ -10028,7 +10169,7 @@
   },
   {
     "key": "sqrt",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::sqrt",
     "constraints": [],
     "actions": [
@@ -10051,7 +10192,7 @@
   },
   {
     "key": "sqrt",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::sqrt",
     "constraints": [],
     "actions": [
@@ -10074,7 +10215,7 @@
   },
   {
     "key": "sqrt",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::sqrt",
     "constraints": [],
     "actions": [
@@ -10097,7 +10238,7 @@
   },
   {
     "key": "continued-fraction-inner",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fraction",
     "constraints": [
       "ancestor::fraction",
@@ -10128,7 +10269,7 @@
   },
   {
     "key": "continued-fraction-inner",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::fraction",
     "constraints": [
       "ancestor::fraction",
@@ -10159,7 +10300,7 @@
   },
   {
     "key": "continued-fraction-inner",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fraction",
     "constraints": [
       "ancestor::fraction",
@@ -10190,7 +10331,7 @@
   },
   {
     "key": "continued-fraction-outer",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fraction",
     "constraints": [
       "not(ancestor::fraction)",
@@ -10221,7 +10362,7 @@
   },
   {
     "key": "continued-fraction-outer",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::fraction",
     "constraints": [
       "not(ancestor::fraction)",
@@ -10252,7 +10393,7 @@
   },
   {
     "key": "continued-fraction-outer",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fraction",
     "constraints": [
       "not(ancestor::fraction)",
@@ -10283,7 +10424,7 @@
   },
   {
     "key": "vulgar-fraction",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fraction",
     "constraints": [
       "@role=\"vulgar\"",
@@ -10299,7 +10440,7 @@
   },
   {
     "key": "vulgar-fraction",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::fraction",
     "constraints": [
       "@role=\"vulgar\"",
@@ -10315,7 +10456,7 @@
   },
   {
     "key": "vulgar-fraction",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fraction",
     "constraints": [
       "@role=\"vulgar\"",
@@ -10331,7 +10472,7 @@
   },
   {
     "key": "fraction",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fraction",
     "constraints": [],
     "actions": [
@@ -10364,7 +10505,7 @@
   },
   {
     "key": "fraction",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::fraction",
     "constraints": [],
     "actions": [
@@ -10397,7 +10538,7 @@
   },
   {
     "key": "fraction",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fraction",
     "constraints": [],
     "actions": [
@@ -10430,7 +10571,7 @@
   },
   {
     "key": "counted-prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuated[@role=\"prime\"]",
     "constraints": [],
     "actions": [
@@ -10448,7 +10589,7 @@
   },
   {
     "key": "quadruple-prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuated[@role=\"prime\"]",
     "constraints": [
       "count(children/*)=4"
@@ -10463,7 +10604,7 @@
   },
   {
     "key": "triple-prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuated[@role=\"prime\"]",
     "constraints": [
       "count(children/*)=3"
@@ -10478,7 +10619,7 @@
   },
   {
     "key": "double-prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuated[@role=\"prime\"]",
     "constraints": [
       "count(children/*)=2"
@@ -10493,7 +10634,7 @@
   },
   {
     "key": "single-prime",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuated[@role=\"prime\"]",
     "constraints": [
       "count(children/*)=1"
@@ -10508,7 +10649,7 @@
   },
   {
     "key": "minus",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::operator",
     "constraints": [
       "text()=\"-\""
@@ -10523,7 +10664,7 @@
   },
   {
     "key": "factorial",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::punctuation",
     "constraints": [
       "text()=\"!\"",
@@ -10539,7 +10680,7 @@
   },
   {
     "key": "text",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::text",
     "constraints": [],
     "actions": [
@@ -10552,7 +10693,7 @@
   },
   {
     "key": "fences-set",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fenced[@role=\"leftright\"]",
     "constraints": [
       "content/*[1][text()]=\"{\"",
@@ -10580,7 +10721,7 @@
   },
   {
     "key": "fences-set",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fenced[@role=\"leftright\"]",
     "constraints": [
       "content/*[1][text()]=\"{\"",
@@ -10608,7 +10749,7 @@
   },
   {
     "key": "fences-neutral",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::fenced",
     "constraints": [
       "self::fenced[@role=\"neutral\"]"
@@ -10633,7 +10774,7 @@
   },
   {
     "key": "fences-neutral",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fenced",
     "constraints": [
       "self::fenced[@role=\"neutral\"]"
@@ -10658,7 +10799,7 @@
   },
   {
     "key": "fences-open-close",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::fenced",
     "constraints": [
       "@role=\"leftright\""
@@ -10683,7 +10824,7 @@
   },
   {
     "key": "function-prefix",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::appl",
     "constraints": [
       "children/*[1][@role=\"prefix function\"]"
@@ -10703,7 +10844,7 @@
   },
   {
     "key": "function-unknown",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::appl",
     "constraints": [],
     "actions": [
@@ -10721,7 +10862,7 @@
   },
   {
     "key": "subtraction",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::infixop",
     "constraints": [
       "@role=\"subtraction\""
@@ -10730,13 +10871,18 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "\"minus\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "implicit",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::infixop",
     "constraints": [
       "@role=\"leftsuper\" or @role=\"leftsub\" or @role=\"rightsuper\" or @role=\"rightsub\""
@@ -10751,7 +10897,7 @@
   },
   {
     "key": "implicit",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::infixop",
     "constraints": [
       "@role=\"implicit\""
@@ -10766,20 +10912,25 @@
   },
   {
     "key": "binary-operation",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::infixop",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "postfix",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::postfixop",
     "constraints": [],
     "actions": [
@@ -10797,7 +10948,7 @@
   },
   {
     "key": "prefix",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::prefixop",
     "constraints": [],
     "actions": [
@@ -10815,7 +10966,7 @@
   },
   {
     "key": "negative",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::prefixop",
     "constraints": [
       "@role=\"negative\""
@@ -10835,7 +10986,7 @@
   },
   {
     "key": "negative",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::prefixop",
     "constraints": [
       "@role=\"negative\"",
@@ -10856,7 +11007,7 @@
   },
   {
     "key": "negative",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::prefixop",
     "constraints": [
       "@role=\"negative\"",
@@ -10877,7 +11028,7 @@
   },
   {
     "key": "negative",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::prefixop",
     "constraints": [
       "@role=\"negative\"",
@@ -10898,7 +11049,7 @@
   },
   {
     "key": "identifier",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::identifier",
     "constraints": [
       "@role=\"protected\""
@@ -10913,7 +11064,7 @@
   },
   {
     "key": "identifier",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())>1",
@@ -10931,7 +11082,7 @@
   },
   {
     "key": "number-baseline-font",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::number",
     "constraints": [
       "@font",
@@ -10955,7 +11106,7 @@
   },
   {
     "key": "number-baseline-font",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::number",
     "constraints": [
       "@font",
@@ -10979,7 +11130,7 @@
   },
   {
     "key": "number-baseline-font",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [
       "@font",
@@ -11013,7 +11164,7 @@
   },
   {
     "key": "number-baseline",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::number",
     "constraints": [
       "not(@hiddenfont)",
@@ -11036,7 +11187,7 @@
   },
   {
     "key": "number-baseline",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::number",
     "constraints": [
       "not(@hiddenfont)",
@@ -11059,7 +11210,7 @@
   },
   {
     "key": "number-baseline",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [
       "not(@hiddenfont)",
@@ -11082,7 +11233,7 @@
   },
   {
     "key": "number-as-upper-word",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [
       "string-length(text())>1",
@@ -11104,7 +11255,7 @@
   },
   {
     "key": "number-with-chars",
-    "dymamic": "mathspeak.sbrief",
+    "dynamic": "mathspeak.sbrief",
     "selector": "self::number",
     "constraints": [
       "\"\" != translate(text(), \"0123456789.,\", \"\")",
@@ -11125,7 +11276,7 @@
   },
   {
     "key": "number-with-chars",
-    "dymamic": "mathspeak.brief",
+    "dynamic": "mathspeak.brief",
     "selector": "self::number",
     "constraints": [
       "\"\" != translate(text(), \"0123456789.,\", \"\")",
@@ -11146,7 +11297,7 @@
   },
   {
     "key": "number-with-chars",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [
       "\"\" != translate(text(), \"0123456789.,\", \"\")",
@@ -11167,7 +11318,7 @@
   },
   {
     "key": "mixed-number",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [
       "@role=\"mixed\""
@@ -11192,7 +11343,7 @@
   },
   {
     "key": "number",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::number",
     "constraints": [],
     "actions": [
@@ -11205,7 +11356,7 @@
   },
   {
     "key": "german-font",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::*",
     "constraints": [
       "@font",
@@ -11231,7 +11382,7 @@
   },
   {
     "key": "german-font",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::*",
     "constraints": [
       "@font",
@@ -11257,7 +11408,7 @@
   },
   {
     "key": "omit-font",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -11279,7 +11430,7 @@
   },
   {
     "key": "font-identifier-short",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -11308,7 +11459,7 @@
   },
   {
     "key": "font-identifier",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -11336,7 +11487,7 @@
   },
   {
     "key": "font",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::*",
     "constraints": [
       "@font",
@@ -11362,7 +11513,7 @@
   },
   {
     "key": "protected",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::*",
     "constraints": [
       "@role=\"protected\""
@@ -11377,7 +11528,7 @@
   },
   {
     "key": "unknown",
-    "dymamic": "mathspeak.default",
+    "dynamic": "mathspeak.default",
     "selector": "self::unknown",
     "constraints": [],
     "actions": [
@@ -11390,7 +11541,7 @@
   },
   {
     "key": "unit-divide",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fraction",
     "constraints": [
       "@role=\"unit\""
@@ -11399,7 +11550,12 @@
       {
         "type": "NODE",
         "content": "children/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.3"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -11409,13 +11565,18 @@
       {
         "type": "NODE",
         "content": "children/*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.3"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "unit-combine",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::infixop",
     "constraints": [
       "@role=\"unit\""
@@ -11430,7 +11591,7 @@
   },
   {
     "key": "reciprocal",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "@role=\"unit\"",
@@ -11455,7 +11616,7 @@
   },
   {
     "key": "reciprocal",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "@role=\"unit\"",
@@ -11480,7 +11641,7 @@
   },
   {
     "key": "unit-cubic",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "@role=\"unit\"",
@@ -11502,7 +11663,7 @@
   },
   {
     "key": "unit-square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "@role=\"unit\"",
@@ -11524,7 +11685,7 @@
   },
   {
     "key": "unit",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::identifier",
     "constraints": [
       "@role=\"unit\""
@@ -11533,13 +11694,22 @@
       {
         "type": "TEXT",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "annotation",
+            "unit"
+          ],
+          [
+            "preprocess",
+            "true"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "text",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::text",
     "constraints": [],
     "actions": [
@@ -11550,13 +11720,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "text-no-mult",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::infixop",
     "constraints": [
       "children/text"
@@ -11569,7 +11744,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -11580,7 +11760,7 @@
   },
   {
     "key": "root",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::root",
     "constraints": [],
     "actions": [
@@ -11602,17 +11782,27 @@
       {
         "type": "NODE",
         "content": "children/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][text()=3]",
@@ -11627,17 +11817,27 @@
       {
         "type": "TEXT",
         "content": "\"cubed\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [
       "children/*[2][text()=2]",
@@ -11652,17 +11852,27 @@
       {
         "type": "TEXT",
         "content": "\"squared\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "sqrt",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::sqrt",
     "constraints": [],
     "actions": [
@@ -11674,17 +11884,27 @@
       {
         "type": "NODE",
         "content": "children/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "integral",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::integral",
     "constraints": [],
     "actions": [
@@ -11695,7 +11915,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 100",
+            "true"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -11704,18 +11929,28 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 200",
+            "true"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "children/*[3]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.35"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "bigop",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::bigop",
     "constraints": [],
     "actions": [
@@ -11726,7 +11961,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 100",
+            "true"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -11740,13 +11980,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 250",
+            "true"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "largeop",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::largeop",
     "constraints": [],
     "actions": [
@@ -11759,7 +12004,7 @@
   },
   {
     "key": "limupper",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::limupper",
     "constraints": [],
     "actions": [
@@ -11782,7 +12027,7 @@
   },
   {
     "key": "limlower",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::limlower",
     "constraints": [],
     "actions": [
@@ -11805,7 +12050,7 @@
   },
   {
     "key": "limboth",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::limboth",
     "constraints": [],
     "actions": [
@@ -11816,7 +12061,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 100",
+            "true"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -11840,13 +12090,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause 250",
+            "true"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "sum-only",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::limboth",
     "constraints": [
       "self::limboth[@role=\"sum\"]"
@@ -11881,7 +12136,7 @@
   },
   {
     "key": "appl",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::appl",
     "constraints": [],
     "actions": [
@@ -11904,7 +12159,7 @@
   },
   {
     "key": "function",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::function",
     "constraints": [],
     "actions": [
@@ -11917,20 +12172,25 @@
   },
   {
     "key": "punctuated",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punctuated",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "integral-punct",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punctuated",
     "constraints": [
       "@role=\"integral\""
@@ -11939,18 +12199,28 @@
       {
         "type": "NODE",
         "content": "children/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "children/*[3]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "start-punct",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punctuated",
     "constraints": [
       "@role=\"startpunct\""
@@ -11963,7 +12233,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "MULTI",
@@ -11974,7 +12249,7 @@
   },
   {
     "key": "end-punct",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punctuated",
     "constraints": [
       "@role=\"endpunct\""
@@ -11987,13 +12262,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cases-cell",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::cell[@role=\"table\"]",
     "constraints": [],
     "actions": [
@@ -12006,20 +12286,25 @@
   },
   {
     "key": "table-row",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::row[@role=\"table\"]",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "table",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::table",
     "constraints": [],
     "actions": [
@@ -12031,13 +12316,26 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"row\""
+          ],
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "line",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::line",
     "constraints": [],
     "actions": [
@@ -12050,7 +12348,7 @@
   },
   {
     "key": "multiline",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::multiline",
     "constraints": [],
     "actions": [
@@ -12062,13 +12360,26 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"line\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cases-end",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::cases",
     "constraints": [
       "following-sibling::*"
@@ -12082,7 +12393,20 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"case\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12093,20 +12417,33 @@
   },
   {
     "key": "row",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::row",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"column\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cases-cell",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::cell[@role=\"cases\"]",
     "constraints": [],
     "actions": [
@@ -12119,7 +12456,7 @@
   },
   {
     "key": "cases-row",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::row[@role=\"cases\"]",
     "constraints": [],
     "actions": [
@@ -12132,7 +12469,7 @@
   },
   {
     "key": "cases",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::cases",
     "constraints": [],
     "actions": [
@@ -12144,13 +12481,26 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"case\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "vector",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::vector",
     "constraints": [],
     "actions": [
@@ -12162,13 +12512,26 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"element\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "matrix-cell",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::cell[@role=\"matrix\"]",
     "constraints": [],
     "actions": [
@@ -12181,20 +12544,33 @@
   },
   {
     "key": "matrix-row",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::row[@role=\"matrix\"]",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"column\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "matrix",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::matrix",
     "constraints": [],
     "actions": [
@@ -12206,19 +12582,37 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"row\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "omit-fences",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fenced",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "500"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -12227,13 +12621,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "fences-neutral",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fenced",
     "constraints": [
       "self::fenced[@role=\"neutral\"]"
@@ -12241,7 +12640,12 @@
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12255,13 +12659,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "350"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "fences-open-close-in-appl",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fenced[@role=\"leftright\"]",
     "constraints": [
       "./parent::children/parent::appl"
@@ -12269,7 +12678,12 @@
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -12278,13 +12692,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "fences-open-close",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fenced",
     "constraints": [
       "@role=\"leftright\""
@@ -12292,7 +12711,12 @@
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12306,7 +12730,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12317,31 +12746,41 @@
   },
   {
     "key": "omit-empty",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::empty",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "omit-punct",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "fence-single",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [
       "self::punct[@role=\"application\"]"
@@ -12356,7 +12795,7 @@
   },
   {
     "key": "fence-single",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [
       "self::punct[@role=\"vbar\"]"
@@ -12371,7 +12810,7 @@
   },
   {
     "key": "fence-single",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [
       "self::punct[@role=\"closefence\"]"
@@ -12386,7 +12825,7 @@
   },
   {
     "key": "fence-single",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [
       "self::punct[@role=\"openfence\"]"
@@ -12401,7 +12840,7 @@
   },
   {
     "key": "ellipsis",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::punct",
     "constraints": [
       "self::punct[@role=\"ellipsis\"]"
@@ -12409,7 +12848,12 @@
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12418,13 +12862,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "subscript",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::subscript",
     "constraints": [],
     "actions": [
@@ -12441,17 +12890,27 @@
       {
         "type": "NODE",
         "content": "children/*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "superscript",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::superscript",
     "constraints": [],
     "actions": [
@@ -12468,32 +12927,57 @@
       {
         "type": "NODE",
         "content": "children/*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "fraction",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::fraction",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "children/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12503,17 +12987,27 @@
       {
         "type": "NODE",
         "content": "children/*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "omit-font",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -12535,7 +13029,7 @@
   },
   {
     "key": "font-identifier",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -12563,7 +13057,7 @@
   },
   {
     "key": "font-identifier-short",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::identifier",
     "constraints": [
       "string-length(text())=1",
@@ -12592,7 +13086,7 @@
   },
   {
     "key": "font",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::*",
     "constraints": [
       "@font",
@@ -12618,7 +13112,7 @@
   },
   {
     "key": "number",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::number",
     "constraints": [],
     "actions": [
@@ -12631,7 +13125,7 @@
   },
   {
     "key": "identifier",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::identifier",
     "constraints": [],
     "actions": [
@@ -12644,7 +13138,7 @@
   },
   {
     "key": "postfix",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::postfixop",
     "constraints": [],
     "actions": [
@@ -12661,13 +13155,18 @@
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "pause 300",
+            "true"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "negative",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::prefixop",
     "constraints": [
       "self::prefixop[@role=\"negative\"]"
@@ -12687,7 +13186,7 @@
   },
   {
     "key": "prefix",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::prefixop",
     "constraints": [],
     "actions": [
@@ -12704,7 +13203,12 @@
       {
         "type": "TEXT",
         "content": "\"of\"",
-        "personality": []
+        "personality": [
+          [
+            "pause 150",
+            "true"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -12715,7 +13219,7 @@
   },
   {
     "key": "multi-addition",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::infixop[@role=\"addition\"]",
     "constraints": [
       "count(./children/*)>2"
@@ -12738,18 +13242,28 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       },
       {
         "type": "MULTI",
         "content": "./children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "variable-addition",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::infixop[@role=\"addition\"]",
     "constraints": [
       "count(children/*)>2",
@@ -12763,44 +13277,64 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       },
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "binary-operation",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::infixop",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "relseq",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "simple-equality2",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)=2",
@@ -12814,12 +13348,22 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -12830,7 +13374,7 @@
   },
   {
     "key": "simple-equality",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)=2",
@@ -12844,12 +13388,22 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
@@ -12860,7 +13414,7 @@
   },
   {
     "key": "equality",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)=2"
@@ -12883,12 +13437,22 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -12904,7 +13468,7 @@
   },
   {
     "key": "multi-equality",
-    "dymamic": "default.short",
+    "dynamic": "default.short",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)>2"
@@ -12918,13 +13482,18 @@
       {
         "type": "MULTI",
         "content": "./children/*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "multi-equality",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)>2"
@@ -12938,13 +13507,26 @@
       {
         "type": "MULTI",
         "content": "./children/*",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"part\""
+          ],
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "variable-equality",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::relseq[@role=\"equality\"]",
     "constraints": [
       "count(./children/*)>2",
@@ -12959,13 +13541,26 @@
       {
         "type": "MULTI",
         "content": "./children/*",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"part\""
+          ],
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "separator",
+            "./text()"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "multrel",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::multirel",
     "constraints": [],
     "actions": [
@@ -12977,13 +13572,18 @@
       {
         "type": "MULTI",
         "content": "children/*",
-        "personality": []
+        "personality": [
+          [
+            "sepFunc",
+            "CTXFcontentIterator"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "stree",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::stree",
     "constraints": [],
     "actions": [
@@ -12996,7 +13596,7 @@
   },
   {
     "key": "mj-cube-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1]=./*[1]/*[2]/span[@class=\"mrow\"]",
@@ -13017,26 +13617,46 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-cube-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1][text()=3]"
@@ -13055,26 +13675,46 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1]=./*[1]/*[2]/span[@class=\"mrow\"]",
@@ -13095,26 +13735,46 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1][text()=2]"
@@ -13133,26 +13793,46 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsup",
@@ -13169,17 +13849,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsup",
@@ -13194,17 +13884,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1]=./*[1]/*[2]/span[@class=\"mrow\"]",
@@ -13220,17 +13920,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1][text()=3]"
@@ -13244,17 +13954,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsup",
@@ -13271,17 +13991,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsup",
@@ -13296,17 +14026,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1]=./*[1]/*[2]/span[@class=\"mrow\"]",
@@ -13322,17 +14062,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msup\"]",
     "constraints": [
       "./*[1]/*[2]/*[1][text()=2]"
@@ -13346,17 +14096,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cube-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msubsup",
     "constraints": [
       "./mathml:mrow=./*[3]",
@@ -13377,26 +14137,46 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cube-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msubsup",
     "constraints": [
       "./*[3][text()=3]"
@@ -13415,26 +14195,46 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "square-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msubsup",
     "constraints": [
       "./mathml:mrow=./*[3]",
@@ -13455,26 +14255,46 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "square-sub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msubsup",
     "constraints": [
       "./*[3][text()=2]"
@@ -13493,26 +14313,46 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msup",
     "constraints": [
       "./mathml:mrow=./*[2]",
@@ -13528,17 +14368,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "cube",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msup",
     "constraints": [
       "./*[2][text()=3]"
@@ -13552,17 +14402,27 @@
       {
         "type": "TEXT",
         "content": "\"cube\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msup",
     "constraints": [
       "./mathml:mrow=./*[2]",
@@ -13578,17 +14438,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "square",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msup",
     "constraints": [
       "./*[2][text()=2]"
@@ -13602,17 +14472,27 @@
       {
         "type": "TEXT",
         "content": "\"square\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-mover",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"munderover\"]",
     "constraints": [
       "CQFmathmlmover"
@@ -13621,7 +14501,12 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -13635,13 +14520,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-munder",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"munderover\"]",
     "constraints": [
       "CQFmathmlmunder"
@@ -13650,7 +14540,12 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -13664,13 +14559,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msup",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsup"
@@ -13689,17 +14589,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [
       "CQFmathmlmsub"
@@ -13718,17 +14628,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mrow",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mrow\"]",
     "constraints": [],
     "actions": [
@@ -13741,14 +14661,23 @@
   },
   {
     "key": "ms",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"ms\"]",
     "constraints": [],
     "actions": [
       {
         "type": "TEXT",
         "content": "\"string\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.5"
+          ],
+          [
+            "rate",
+            "0.5"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -13759,7 +14688,7 @@
   },
   {
     "key": "mphantom",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mphantom\"]",
     "constraints": [],
     "actions": [
@@ -13772,7 +14701,7 @@
   },
   {
     "key": "merror",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"merror\"]",
     "constraints": [],
     "actions": [
@@ -13785,7 +14714,7 @@
   },
   {
     "key": "mpadded",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mpadded\"]",
     "constraints": [],
     "actions": [
@@ -13798,7 +14727,7 @@
   },
   {
     "key": "mstyle",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mstyle\"]",
     "constraints": [],
     "actions": [
@@ -13811,19 +14740,24 @@
   },
   {
     "key": "mspace",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mspace\"]",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mmultiscripts\"]",
     "constraints": [],
     "actions": [
@@ -13836,7 +14770,7 @@
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mtable\"]",
     "constraints": [],
     "actions": [
@@ -13849,7 +14783,7 @@
   },
   {
     "key": "mj-mfenced",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mfenced\"]",
     "constraints": [],
     "actions": [
@@ -13882,7 +14816,7 @@
   },
   {
     "key": "mj-mroot",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mroot\"]",
     "constraints": [],
     "actions": [
@@ -13904,17 +14838,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[1]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msqrt",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msqrt\"]",
     "constraints": [],
     "actions": [
@@ -13926,32 +14870,57 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[1]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-mfrac",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mfrac\"]",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "./*[1]/*[1]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -13961,24 +14930,39 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-mover",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mover\"]",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -13992,20 +14976,30 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-munder",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"munder\"]",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14019,20 +15013,30 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-munderover",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"munderover\"]",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14042,7 +15046,12 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14056,13 +15065,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msup",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msup\"]",
     "constraints": [],
     "actions": [
@@ -14079,17 +15093,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msub\"]",
     "constraints": [],
     "actions": [
@@ -14106,17 +15130,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-msubsup",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"msubsup\"]",
     "constraints": [],
     "actions": [
@@ -14133,11 +15167,21 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[3]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14147,17 +15191,27 @@
       {
         "type": "NODE",
         "content": "./*[1]/*[2]/*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mj-texatom",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"texatom\"]",
     "constraints": [],
     "actions": [
@@ -14170,7 +15224,7 @@
   },
   {
     "key": "mj-mo-ext",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mo\"]",
     "constraints": [
       "./*[1]/*[1]/text()",
@@ -14186,7 +15240,7 @@
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mtext\"]",
     "constraints": [],
     "actions": [
@@ -14199,7 +15253,7 @@
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mn\"]",
     "constraints": [],
     "actions": [
@@ -14212,7 +15266,7 @@
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mo\"]",
     "constraints": [],
     "actions": [
@@ -14225,7 +15279,7 @@
   },
   {
     "key": "mj-leaf",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"mi\"]",
     "constraints": [],
     "actions": [
@@ -14238,7 +15292,7 @@
   },
   {
     "key": "mj-math",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::span[@class=\"math\"]",
     "constraints": [],
     "actions": [
@@ -14251,7 +15305,7 @@
   },
   {
     "key": "mmultiscripts-1-2",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[2]",
@@ -14267,7 +15321,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14277,17 +15336,27 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-1-1",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[2]",
@@ -14303,7 +15372,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14313,17 +15387,27 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-2-1",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[2]",
@@ -14338,7 +15422,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14348,11 +15437,21 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14362,17 +15461,27 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-3-4",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[6]",
@@ -14386,7 +15495,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14396,11 +15510,21 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14410,11 +15534,21 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14424,17 +15558,27 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-3-3",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[5]",
@@ -14448,7 +15592,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14458,11 +15607,21 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14472,11 +15631,21 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14486,17 +15655,27 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-3-2",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[3]",
@@ -14510,7 +15689,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14520,11 +15704,21 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14534,11 +15728,21 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14548,17 +15752,27 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-3-1",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [
       "./mathml:none=./*[2]",
@@ -14572,7 +15786,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14582,11 +15801,21 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14596,11 +15825,21 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14610,17 +15849,27 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mmultiscripts-4",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mmultiscripts",
     "constraints": [],
     "actions": [
@@ -14631,7 +15880,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14641,11 +15895,21 @@
       {
         "type": "NODE",
         "content": "./*[5]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14655,11 +15919,21 @@
       {
         "type": "NODE",
         "content": "./*[6]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14669,11 +15943,21 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14683,17 +15967,27 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mtd",
-    "dymamic": "default.short",
+    "dynamic": "default.short",
     "selector": "self::mathml:mtd",
     "constraints": [],
     "actions": [
@@ -14714,7 +16008,12 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "500"
+          ]
+        ]
       },
       {
         "type": "MULTI",
@@ -14725,7 +16024,7 @@
   },
   {
     "key": "mtr",
-    "dymamic": "default.short",
+    "dynamic": "default.short",
     "selector": "self::mathml:mtr",
     "constraints": [],
     "actions": [
@@ -14738,7 +16037,7 @@
   },
   {
     "key": "mtable",
-    "dymamic": "default.short",
+    "dynamic": "default.short",
     "selector": "self::mathml:mtable",
     "constraints": [],
     "actions": [
@@ -14756,7 +16055,7 @@
   },
   {
     "key": "mtable",
-    "dymamic": "default.superbrief",
+    "dynamic": "default.superbrief",
     "selector": "self::mathml:mtable",
     "constraints": [],
     "actions": [
@@ -14784,7 +16083,7 @@
   },
   {
     "key": "mtd",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mtd",
     "constraints": [],
     "actions": [
@@ -14797,20 +16096,33 @@
   },
   {
     "key": "mtr",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mtr",
     "constraints": [],
     "actions": [
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"column\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mtable",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mtable",
     "constraints": [],
     "actions": [
@@ -14822,13 +16134,26 @@
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "ctxtFunc",
+            "CTXFnodeCounter"
+          ],
+          [
+            "context",
+            "\"row\""
+          ],
+          [
+            "pause",
+            "100"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfenced-multi",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfenced",
     "constraints": [
       "string-length(string(@separators))>1"
@@ -14837,46 +16162,80 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@open, 0 div boolean(@open)), substring(\"(\", 0 div not(boolean(@open))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"opening\""
+          ]
+        ]
       },
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "sepFunc",
+            "CTXFmfSeparators"
+          ],
+          [
+            "separator",
+            "@separators"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "concat(substring(@close, 0 div boolean(@close)), substring(\")\", 0 div not(boolean(@close))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"closing\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfenced-comma",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfenced",
     "constraints": [],
     "actions": [
       {
         "type": "TEXT",
         "content": "concat(substring(@open, 0 div boolean(@open)), substring(\"(\", 0 div not(boolean(@open))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"opening\""
+          ]
+        ]
       },
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "\"comma\""
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "concat(substring(@close, 0 div boolean(@close)), substring(\")\", 0 div not(boolean(@close))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"closing\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfenced-empty",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfenced",
     "constraints": [
       "string-length(string(@separators))=1",
@@ -14886,7 +16245,12 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@open, 0 div boolean(@open)), substring(\"(\", 0 div not(boolean(@open))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"opening\""
+          ]
+        ]
       },
       {
         "type": "MULTI",
@@ -14896,13 +16260,18 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@close, 0 div boolean(@close)), substring(\")\", 0 div not(boolean(@close))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"closing\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfenced-omit",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfenced",
     "constraints": [
       "@separators",
@@ -14913,7 +16282,12 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@open, 0 div boolean(@open)), substring(\"(\", 0 div not(boolean(@open))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"opening\""
+          ]
+        ]
       },
       {
         "type": "MULTI",
@@ -14923,13 +16297,18 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@close, 0 div boolean(@close)), substring(\")\", 0 div not(boolean(@close))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"closing\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfenced-single",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfenced",
     "constraints": [
       "string-length(string(@separators))=1"
@@ -14938,29 +16317,49 @@
       {
         "type": "TEXT",
         "content": "concat(substring(@open, 0 div boolean(@open)), substring(\"(\", 0 div not(boolean(@open))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"opening\""
+          ]
+        ]
       },
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "separator",
+            "@separators"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "concat(substring(@close, 0 div boolean(@close)), substring(\")\", 0 div not(boolean(@close))))",
-        "personality": []
+        "personality": [
+          [
+            "context",
+            "\"closing\""
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mfrac",
-    "dymamic": "default.short",
+    "dynamic": "default.short",
     "selector": "self::mathml:mfrac",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14970,7 +16369,12 @@
       {
         "type": "NODE",
         "content": "./*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.3"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14980,11 +16384,21 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -14995,18 +16409,28 @@
   },
   {
     "key": "mfrac",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mfrac",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       },
       {
         "type": "NODE",
         "content": "./*[1]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.3"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15016,17 +16440,27 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.3"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mroot",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mroot",
     "constraints": [],
     "actions": [
@@ -15048,17 +16482,27 @@
       {
         "type": "NODE",
         "content": "./*[1]",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "msqrt",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msqrt",
     "constraints": [],
     "actions": [
@@ -15070,17 +16514,27 @@
       {
         "type": "MULTI",
         "content": "./*",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "0.2"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mrow",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mrow",
     "constraints": [],
     "actions": [
@@ -15093,14 +16547,19 @@
   },
   {
     "key": "munderover",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:munderover",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15110,7 +16569,12 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15124,20 +16588,30 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "munder",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:munder",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15151,24 +16625,39 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mover",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mover",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15182,13 +16671,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "400"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "msub",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msub",
     "constraints": [],
     "actions": [
@@ -15205,17 +16699,27 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "msubsup",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msubsup",
     "constraints": [],
     "actions": [
@@ -15232,11 +16736,21 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "-0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15246,17 +16760,27 @@
       {
         "type": "NODE",
         "content": "./*[3]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "msup",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:msup",
     "constraints": [],
     "actions": [
@@ -15273,17 +16797,27 @@
       {
         "type": "NODE",
         "content": "./*[2]",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.35"
+          ]
+        ]
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "300"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "unit",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mi",
     "constraints": [
       "@class=\"MathML-Unit\""
@@ -15292,20 +16826,38 @@
       {
         "type": "TEXT",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "annotation",
+            "unit"
+          ],
+          [
+            "preprocess",
+            "true"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "ms",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:ms",
     "constraints": [],
     "actions": [
       {
         "type": "TEXT",
         "content": "\"string\"",
-        "personality": []
+        "personality": [
+          [
+            "pitch",
+            "0.5"
+          ],
+          [
+            "rate",
+            "0.5"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15316,7 +16868,7 @@
   },
   {
     "key": "mo-variant",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mo",
     "constraints": [
       "@mathvariant",
@@ -15331,13 +16883,18 @@
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "-0.1"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mi-variant",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mn",
     "constraints": [
       "@mathvariant",
@@ -15358,7 +16915,7 @@
   },
   {
     "key": "mi-variant",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mi",
     "constraints": [
       "@mathvariant",
@@ -15379,7 +16936,7 @@
   },
   {
     "key": "mtext-variant",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mtext",
     "constraints": [
       "@mathvariant",
@@ -15394,12 +16951,22 @@
       {
         "type": "TEXT",
         "content": "@mathvariant",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "150"
+          ]
+        ]
       },
       {
         "type": "TEXT",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "150"
+          ]
+        ]
       },
       {
         "type": "TEXT",
@@ -15409,13 +16976,18 @@
       {
         "type": "TEXT",
         "content": "@mathvariant",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mn",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mn",
     "constraints": [],
     "actions": [
@@ -15428,20 +17000,25 @@
   },
   {
     "key": "mo",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mo",
     "constraints": [],
     "actions": [
       {
         "type": "NODE",
         "content": "text()",
-        "personality": []
+        "personality": [
+          [
+            "rate",
+            "-0.1"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mi",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mi",
     "constraints": [],
     "actions": [
@@ -15454,7 +17031,7 @@
   },
   {
     "key": "mtext",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mtext",
     "constraints": [],
     "actions": [
@@ -15465,13 +17042,18 @@
       },
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "200"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "mphantom",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mphantom",
     "constraints": [],
     "actions": [
@@ -15484,7 +17066,7 @@
   },
   {
     "key": "merror",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:merror",
     "constraints": [],
     "actions": [
@@ -15497,7 +17079,7 @@
   },
   {
     "key": "mpadded",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mpadded",
     "constraints": [],
     "actions": [
@@ -15510,7 +17092,7 @@
   },
   {
     "key": "mstyle",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mstyle",
     "constraints": [],
     "actions": [
@@ -15523,19 +17105,24 @@
   },
   {
     "key": "mspace",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:mspace",
     "constraints": [],
     "actions": [
       {
         "type": "PERSONALITY",
-        "personality": []
+        "personality": [
+          [
+            "pause",
+            "250"
+          ]
+        ]
       }
     ]
   },
   {
     "key": "semantics",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:semantics",
     "constraints": [],
     "actions": [
@@ -15548,7 +17135,7 @@
   },
   {
     "key": "math",
-    "dymamic": "default.default",
+    "dynamic": "default.default",
     "selector": "self::mathml:math",
     "constraints": [],
     "actions": [
