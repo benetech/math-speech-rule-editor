@@ -6,13 +6,15 @@
  */
 var waterfall = require('async'), exec = require('child_process').exec, fs = require('fs');
 var pathToMathMaps = "node_modules/speech-rule-engine/lib/";
+var pathToSpellRules = "lib/";
 module.exports = {
 
     /** Read json rulesets from the speech-rule-engine and import as default rulesets. */
     import: function(req, res) {
         //before we do anything, create the default rulesets.
         RuleSetImportExporter.createDefaultRulesets(function() {
-            var mathmaps = RuleSetImportExporter.getMathMapDirectories(pathToMathMaps);
+            var mathmaps = RuleSetImportExporter.getMathMapDirectories(pathToMathMaps) +
+		RuleSetImportExporter.getMathMapDirectories(pathToSpellRules);
             for (var m = 0; m < mathmaps.length; m++) {
                 MathMap.findOrCreate({name: mathmaps[m]}).then(function(mathmap) {
                     RuleSetImportExporter.importMathMap(pathToMathMaps + mathmap.name, mathmap);

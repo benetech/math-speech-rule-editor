@@ -1,6 +1,6 @@
 # math-speech-rule-editor
 
-a [Sails](http://sailsjs.org) application to edit rules for 
+A [Sails](http://sailsjs.org) application to edit rules for 
 use by the [speech-rule-engine](https://github.com/zorkow/speech-rule-engine)
 
 ### Getting Started
