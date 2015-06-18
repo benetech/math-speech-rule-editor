@@ -80,6 +80,16 @@ module.exports.routes = {
     action: 'rule'
   },
 
+  'get /rule/:id/edit': {
+    controller: 'RuleSetController',
+    action: 'editRule'
+  },
+
+  'post /rule/:id/edit': {
+    controller: 'RuleSetController',
+    action: 'updateRule'
+  },
+
   'get /ruleset/:id': {
     controller: 'RuleSetController',
     action: 'ruleSet'

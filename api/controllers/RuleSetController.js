@@ -55,6 +55,20 @@ module.exports = {
         });
     },
 
+    editRule: function(req, res) {
+        Rule.findOne({id: req.param("id")}).populate("mappings").then(function(rule) {
+            return res.view("rule/edit", {'rule': rule});
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        });
+    },
+
+    updateRule: function(req, res) {
+        
+
+    },
+
     ruleMappings: function(req, res) {
         Mapping.find({rule: req.param("id")}).then(function(mappings) {
             return res.json(mappings);
