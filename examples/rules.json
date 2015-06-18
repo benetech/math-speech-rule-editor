@@ -1,6 +1,6 @@
 [
   {
-    "name": "square",
+    "key": "square",
     "dynamic": "mathspeak.default",
     "selector": "self::superscript",
     "constraints": [
@@ -14,7 +14,7 @@
                "personality": []}]
   },
   {
-    "name": "square",
+    "key": "square",
     "dynamic": "mathspeak.brief",
     "selector": "self::superscript",
     "constraints": [
