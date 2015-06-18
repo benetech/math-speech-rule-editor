@@ -45,10 +45,6 @@
   <body>
 
     <div class="page">
-      <div class="ocean">
-        <img class="fishy" src="http://sailsjs.com/images/image_devInTub.png">
-      </div>
-
       <div class="main">
         <h1>
           Forbidden
@@ -57,18 +53,10 @@
           <% if (typeof error !== 'undefined') { %>
           <%= error %>
           <% } else { %>
-          You don't have permission to see the page you're trying to reach.
-          <% } %>
+          You don't have permission to see the page you're trying to reach.<br>
+          Try <a href="/register">making an account</a> and <a href="/login">logging in</a> first.
+	  <% } %>
         </h2>
-        <p class="help">
-          <a href="http://en.wikipedia.org/wiki/HTTP_403">Why</a> might this be happening?
-        </p>
-      </div>
-
-      <div class="logo">
-        <a href="http://sailsjs.org">
-          <img src="http://sailsjs.org/images/logo.png">
-        </a>
       </div>
     </div>
 
