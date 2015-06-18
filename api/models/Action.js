@@ -9,13 +9,13 @@ module.exports = {
   attributes: {
     type: {
         type: 'string',
-	enum: ['text', 'node', 'multi', 'personality']
+	enum: ['TEXT', 'NODE', 'MULTI', 'PERSONALITY']
     },
     content: {
 	type: 'string'  // TODO(): handle xpath vs literal string vs func
     },
     personality: {
-	type: 'string'  // Opaque; pass-through but don't process.
+	type: 'array'  // Opaque; pass-through but don't process.
     },
     rule: {
 	model: 'Rule'
