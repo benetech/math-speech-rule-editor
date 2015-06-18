@@ -15,7 +15,7 @@ module.exports = {
 	type: 'string'  // TODO(): handle xpath vs literal string vs func
     },
     personality: {
-	type: 'string'  // Opaque; pass-through but don't process.
+	type: 'array'  // Opaque; pass-through but don't process.
     },
     rule: {
 	model: 'Rule'

@@ -6,7 +6,7 @@
     "constraints": [
       "children/*[2][text()=2]"
     ],
-    "actions": [{"type": "node",
+    "actions": [{"type": "NODE",
                "content": "children/*[1]",
                "personality": []},
               {"type": "text",
@@ -20,7 +20,7 @@
     "constraints": [
       "children/*[2][text()=2]"
     ],
-    "actions": [{"type": "node",
+    "actions": [{"type": "NODE",
                "content": "children/*[1]",
                "personality": []},
               {"type": "text",
