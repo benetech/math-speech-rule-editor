@@ -1,0 +1,7 @@
+<h1>&#x<%= rule.key %>;</h1>
+<form method="POST" action="#">
+  <% for(var i=0; i<rule.mappings.length; i++) {%>
+    <%=rule.mappings[i].style%>: <input type="text" name="mapping-<%=rule.mappings[i].id%>" value="<%=rule.mappings[i].speak%>"><br>
+  <% } %>
+  <input type="submit" name="submit" value="Update">
+</form>

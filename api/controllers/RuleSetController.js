@@ -38,7 +38,7 @@ module.exports = {
     },
 
     rules: function(req, res) {
-        Rule.find().populate("mappings").then(function(rules) {
+        Rule.find().populateAll().then(function(rules) {
             return res.json(rules);
         }).catch(function(err) {
             console.log(err);
@@ -47,12 +47,47 @@ module.exports = {
     },
 
     rule: function(req, res) {
-        Rule.findOne({id: req.param("id")}).populate("mappings").then(function(rule) {
+        Rule.findOne({id: req.param("id")}).populateAll().then(function(rule) {
             return res.json(rule);
         }).catch(function(err) {
             console.log(err);
             return res.badRequest(err);
         });
+    },
+
+    editRule: function(req, res) {
+        Rule.findOne({id: req.param("id")}).populateAll().then(function(rule) {
+            RuleSet.find().then(function(ruleSets) {
+                //TODO: manually populate rulesets
+                //rule.mappings.foreach(function(mapping, index) {
+                //    mapping.ruleSet = ruleSets.filter(function(ruleSet) {
+                        
+                return res.view("rule/edit", {'rule': rule, 'ruleSets': ruleSets});
+            }).catch(function(err) {
+                console.log(err);
+                return res.badRequest(err);
+            });
+        }).catch(function(err) {
+            console.log(err);
+            return res.badRequest(err);
+        });
+    },
+
+    updateRule: function(req, res) {
+       var values = req.allParams();
+       Object.keys(values).forEach(function(key) {
+           if(key.indexOf("mapping-") === 0) {
+               var mappingId = key.split("-")[1];
+               var newSpeak = values[key];
+               Mapping.update({id: mappingId}, {speak: newSpeak}).exec(function after(err, updated) {
+                   if(err) {
+                       console.log(err);
+                       return res.badRequest(err);
+                   }
+               });
+           }
+       });
+       return res.view("homepage");
     },
 
     ruleMappings: function(req, res) {

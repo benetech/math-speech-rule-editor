@@ -1,3 +1,5 @@
+var passport = require('passport');
+
 /**
  * HTTP Server Settings
  * (sails.config.http)
@@ -21,6 +23,10 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
+    customMiddleware: function (app) {
+        app.use(passport.initialize());
+        app.use(passport.session());
+    }
   // middleware: {
 
   /***************************************************************************

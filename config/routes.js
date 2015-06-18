@@ -80,6 +80,16 @@ module.exports.routes = {
     action: 'rule'
   },
 
+  'get /rule/:id/edit': {
+    controller: 'RuleSetController',
+    action: 'editRule'
+  },
+
+  'post /rule/:id/edit': {
+    controller: 'RuleSetController',
+    action: 'updateRule'
+  },
+
   'get /ruleset/:id': {
     controller: 'RuleSetController',
     action: 'ruleSet'
@@ -143,6 +153,16 @@ module.exports.routes = {
   'get /mathmap/category/:id/rules': {
     controller: 'RuleSetController',
     action: 'categoryRules'
-  }
+  },
+
+  'get /login': 'AuthController.login',
+  'get /logout': 'AuthController.logout',
+  'get /register': 'AuthController.register',
+
+  'post /auth/local': 'AuthController.callback',
+  'post /auth/local/:action': 'AuthController.callback',
+
+  'get /auth/:provider': 'AuthController.provider',
+  'get /auth/:provider/callback': 'AuthController.callback',
 
 };
