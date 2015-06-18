@@ -1,30 +1,30 @@
 [
   {
-    name: "square",
-    dynamic: "mathspeak.default",
-    selector: "self::superscript",
-    constraints: [
+    "name": "square",
+    "dynamic": "mathspeak.default",
+    "selector": "self::superscript",
+    "constraints": [
       "children/*[2][text()=2]"
     ],
-    actions: [{type: "node",
-               content: "children/*[1]",
-               personality: []},
-              {type: "text",
-               content: "\"squared\"",
-               personality: []}]
+    "actions": [{"type": "node",
+               "content": "children/*[1]",
+               "personality": []},
+              {"type": "text",
+               "content": "\"squared\"",
+               "personality": []}]
   },
   {
-    name: "square",
-    dynamic: "mathspeak.brief",
-    selector: "self::superscript",
-    constraints: [
+    "name": "square",
+    "dynamic": "mathspeak.brief",
+    "selector": "self::superscript",
+    "constraints": [
       "children/*[2][text()=2]"
     ],
-    actions: [{type: "node",
-               content: "children/*[1]",
-               personality: []},
-              {type: "text",
-               content: "\"squared\"",
-               personality: []}]
+    "actions": [{"type": "node",
+               "content": "children/*[1]",
+               "personality": []},
+              {"type": "text",
+               "content": "\"squared\"",
+               "personality": []}]
   }
 ]
